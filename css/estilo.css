@@ -1,0 +1,180 @@
+*
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ece7d9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #4b481c;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para el logotipo */
+.Logo {
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilo para la barra de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo para el contenido principal */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+}
+
+
+.ContenedorFila {
+    display: flex;
+    justify-content: space-between; /* Espaciado equitativo entre las tarjetas */
+    flex-wrap: wrap; /* Envuelve las tarjetas a la siguiente línea si no caben en el ancho del contenedor */
+}
+
+.TarjetaContenedor {
+    flex-basis: calc(33.33% - 20px); /* Establece el ancho base para cada tarjeta con espacio entre ellas */
+    margin-bottom: 20px; /* Espacio entre las filas de tarjetas */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el mouse por encima */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+    
+
+/* Estilo para el contenido principal */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo para el subtítulo */
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Estilo para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilo para etiquetas y campos de entrada */
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Estilo para el botón de envío y reinicio */
+.btnFormulario {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btnFormulario:hover {
+    background-color: #555;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333; /* Cambia el color de fondo a tu preferencia */
+    color: #fff; /* Cambia el color del texto a tu preferencia */
+    padding: 20px; /* Agrega espacio alrededor del contenido del footer */
+}
+
+/* Estilos para el título en el footer */
+footer h3 {
+    font-size: 18px; /* Cambia el tamaño de fuente del título */
+    margin-bottom: 10px; /* Agrega espacio debajo del título */
+}
+
+/* Estilos para la lista en el footer */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista en el footer */
+footer li {
+    font-size: 14px; /* Cambia el tamaño de fuente de los elementos de la lista */
+    margin-bottom: 5px; /* Agrega espacio entre los elementos de la lista */
+}
+
+/* Estilos para los enlaces en el footer */
+footer a {
+    color: #fff; /* Cambia el color de los enlaces a tu preferencia */
+    text-decoration: none;
+}
+
+/* Estilos para los enlaces en el footer cuando se pasan por encima */
+footer a:hover {
+    text-decoration: underline; /* Subraya los enlaces cuando se pasa el mouse por encima */
+}
+
+
+
