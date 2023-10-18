@@ -83,13 +83,13 @@ main {
 
 .ContenedorFila {
     display: flex;
-    justify-content: space-between; /* Espaciado equitativo entre las tarjetas */
-    flex-wrap: wrap; /* Envuelve las tarjetas a la siguiente línea si no caben en el ancho del contenedor */
+    justify-content: space-between; 
+    flex-wrap: wrap;
 }
 
 .TarjetaContenedor {
-    flex-basis: calc(33.33% - 20px); /* Establece el ancho base para cada tarjeta con espacio entre ellas */
-    margin-bottom: 20px; /* Espacio entre las filas de tarjetas */
+    flex-basis: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
 }
 
 .card {
